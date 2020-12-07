@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
+    "serverless-google-cloudfunctions": "^3.1.1",
     "socket.io": "^3.0.3"
   },
   "devDependencies": {
