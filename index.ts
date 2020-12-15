@@ -20,7 +20,7 @@ const redisClient = redis.createClient();
 var httpServer = http.createServer(app);
 var io = new Server(httpServer, {
   cors: {
-    origin: "http://localhost:3000",
+    origin: "http://localhost:*",
     methods: ["GET", "POST"],
   },
 });
